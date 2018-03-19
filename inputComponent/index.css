@@ -1,0 +1,19 @@
+p,input,button{
+	padding: 0;
+	margin: 0
+}
+.input-number{
+	width: 300px;
+	border: 1px solid #000;
+	margin: 150px auto;
+	padding: 65.5px 40px;
+}
+.input-number input{
+	width: 200px;
+	height: 26px;
+}
+.input-number button{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
