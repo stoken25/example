@@ -1,0 +1,288 @@
+/*reset*/
+body,p,ul{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+li{list-style: none;}
+html{
+	font-size: 100px;
+	width: 100%;
+}
+body{
+	width: 100%;
+	overflow-x:hidden;
+}
+header{
+	width: 100%;
+	height:0.35rem;
+	background: #fe5400;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	display: flex;
+}
+header>img{
+	width: 8%;
+	height: 60%;
+	margin-top: 0.05rem;
+	margin-left: 0.05rem;
+}
+header>div{
+	width: 88%;
+	height: 0.25rem;
+	background: #b52600;
+	border-radius: 0.05rem;
+	margin-top: 0.05rem;
+	margin-left: 0.05rem;
+}
+header>div>a{
+	display: block;
+	width:100%;
+	height: 0.25rem;
+	font-size: 0.14rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.banner img{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+nav{
+	width: 100%;
+}
+nav>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0.1rem;
+	border-bottom: 2px solid #fafafa;
+}
+nav>ul>li{
+	width: 19%;
+	padding-bottom: 0.15rem;
+}
+nav>ul>li>a{
+	display: block;
+	width: 100%;
+	font-size: 0.12rem;
+}
+nav>ul>li>a>img{
+	width: 100%;
+}
+nav>ul>li>a>p{
+	text-align: center;
+	color: #000;
+	margin-top: 0.05rem;
+}
+section{
+	width: 100%;
+}
+section .news{
+	width: 100%;
+	display: flex;
+	font-size: 0.16rem;
+	box-shadow: 0 0.05rem #eeeeee;
+	line-height: 0.23rem;
+	text-align: center;
+	padding: 0.05rem;
+}
+section .news img{
+	width: 20%;
+	height: 100%;
+	border-right: 2px solid #f9f9f9;
+}
+section .news span{
+	display: block;
+	height: 80%;
+	font-size: 0.14rem;
+	color: red;
+	border:1px solid red;
+	border-radius: 0.05rem;
+	margin-left: 0.15rem;
+}
+section .news p{
+	margin-left: 0.15rem;
+	text-align: center;
+}
+section .rush{
+	width: 100%;
+	margin-top: 0.05rem;
+	box-shadow: 0 0.05rem #eeeeee;
+	position: relative;
+}
+section .rush img:nth-child(1){
+	width: 35%;
+	height: 100%;
+}
+section .rush img:nth-child(2){
+	width: 28%;
+	position: absolute;
+	top: 0;
+	left: 35%;
+}
+section .rush img:nth-child(3){
+	width: 30%;
+	position: absolute;
+	top:42%;
+	left:35%;
+}
+section .rush img:nth-child(4){
+	width: 30%;
+	position: absolute;
+	top:42%;
+	right:0;
+}
+section .rush img:nth-child(5){
+	width: 7%;
+	position: absolute;
+	top:3%;
+	right:15%;
+}
+section .rush .time{
+	font-size: 0.16rem;
+	position: absolute;
+	top: 29%;
+	left: 2%;
+}
+section .rush .time mark{
+	color: #fff;
+	background: #333;
+}
+section .benefits{
+	width: 100%;
+	margin-top: 0.05rem;
+	box-shadow: 0 0.05rem #eeeeee;
+}
+section .benefits>p{
+	color: #ff5130;
+	font-size:0.16rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+section .benefits>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+section .benefits>ul>li{
+	width: 20%;
+}
+section .benefits>ul>li:nth-child(1),section .benefits>ul>li:nth-child(5){
+	width: 40%;
+}
+section .benefits>ul>li>a{
+	display: block;
+	width:100%;
+	font-size: 0.12rem;
+}
+section .benefits>ul>li img{
+	width: 100%;
+}
+section .tianmao{
+	width: 100%;
+	margin-top: 0.05rem;
+	box-shadow: 0 0.05rem #eeeeee;
+}
+section .tianmao>p{
+	color: #ff5130;
+	font-size:0.16rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+section .tianmao>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+section .tianmao>ul>li:nth-child(1),section .tianmao>ul>li:nth-child(2){
+	width: 50%;
+}
+section .tianmao>ul>li{
+	width: 25%;
+}
+section .tianmao>ul>li>a{
+	display: block;
+	width:100%;
+	font-size: 0.12rem;
+}
+section .tianmao>ul>li>a>img{
+	width: 100%;
+}
+section .feature{
+	width: 100%;
+	margin-top: 0.05rem;
+	box-shadow: 0 0.05rem #eeeeee;
+}
+section .feature>p{
+	color: #ff5130;
+	font-size:0.16rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+section .feature>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+section .feature>ul>li:nth-child(1),section .feature>ul>li:nth-child(5){
+	width: 40%;
+}
+section .feature>ul>li{
+	width: 20%;
+}
+section .feature>ul>li>a{
+	display: block;
+	width:100%;
+	font-size: 0.12rem;
+}
+section .feature>ul>li>a>img{
+	width: 100%;
+}
+section .Ali{
+	width: 100%;
+	margin-top: 0.05rem;
+}
+section .Ali>img{
+	width: 100%;
+	vertical-align: top;
+}
+footer{
+	width: 100%;
+	height: 0.5rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+}
+footer>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+}
+footer>ul>li{
+	width: 20%;
+	height: 100%;
+	flex:1;
+}
+footer>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.14rem;
+}
+footer>ul>li>a>span{
+	display: block;
+	font-size: 0.24rem;
+	text-align:center;
+	color: #000;
+}
+footer>ul>li>a>p{
+	font-size: 0.14rem;
+	text-align:center;
+	color: #000;
+}
